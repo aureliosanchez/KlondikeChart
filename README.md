@@ -11,7 +11,7 @@ This is an open source project that allows users to create data charts inmediatl
 
 #Features
 This relase features a full responsive and customizable Line Chart and Donut Chart:
-<img src="https://drive.google.com/file/d/0B_AHywkX6cUeWmpUMURaV1kyaE0/view?usp=sharing">
+<img src="https://drive.google.com/open?id=0B_AHywkX6cUeWmpUMURaV1kyaE0">
 
 # SetUp
 This project requires jQuery 2.1 or later 
