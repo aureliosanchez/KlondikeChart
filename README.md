@@ -15,7 +15,5 @@ Add the jQuery library to your HTML document
 Add the jCanvas plugin to your HTML document
 <br>
 Add the KlondikeChart library to your HTML document
-<br><br>
-Your HTML document head tag should look something like this:
-<br>
+
 
