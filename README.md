@@ -12,6 +12,8 @@ This is an open source project that allows users to create data charts inmediatl
 #Release Features
 <h3>Full Responsive Line Chart:</h3>
 <img src="https://raw.githubusercontent.com/aureliosanchez/KlondikeChart/master/SampleImages/KlonidkeChartProjectImage1.png">
+<h3>Full Responsive Donut Chart:</h3>
+<img src="https://raw.githubusercontent.com/aureliosanchez/KlondikeChart/master/SampleImages/KlonidkeChartProjectImage2.png">
 
 # SetUp
 This project requires jQuery 2.1 or later 
