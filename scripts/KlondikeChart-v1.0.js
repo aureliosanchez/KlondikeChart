@@ -1,7 +1,8 @@
 /*Klondike Chart V1.5
-	Developed by Klondike Inc.
-	OpenSource Project - Last Update 23/06/2016
+	Developed by Aurelio Sanchez Carrillo.
+	OpenSource Project - Last Update 14/07/2016
 	Aurelio Carrillo (AC)
+	Read the License Attached to this Project
 */
 
 DonutChart = function(){ 
