@@ -27,7 +27,7 @@ Add the KlondikeChart jQuery library to your HTML head tag (download from this p
 Add the KlondikeChart Main CSS file to your HTML head tag (download from this post located in the "CSS" folder)
 <br><br>
 <h3>Line Chart SetUp:</h3>
-Open a `<script>` tag in you html document
+Open a `<script>` tag in your html document where you call the `LineChart()`
 
 
 
