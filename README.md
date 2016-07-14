@@ -9,6 +9,10 @@ Released under the GNU GENERAL PUBLIC LICENSE
 
 This is an open source project that allows users to create data charts inmediatly using HTML5's Canvas property and the jCanvas plugin (see GitHub project: https://github.com/caleb531/jcanvas)
 
+#Features
+This relase features a full responsive and customizable Line Chart and Donut Chart:
+<img src="https://drive.google.com/file/d/0B_AHywkX6cUeWmpUMURaV1kyaE0/view?usp=sharing">
+
 # SetUp
 This project requires jQuery 2.1 or later 
 <br>
@@ -20,8 +24,7 @@ Add the KlondikeChart jQuery library to your HTML head tag (download from this p
 <br>
 Add the KlondikeChart Main CSS file to your HTML head tag (download from this post located in the "CSS" Folder)
 <br><br>
-This relase features a full responsive and customizable Line Chart and Donut Chart:
-<img src="http://www.w3schools.com/css/trolltunga.jpg">
+
 
 
 
