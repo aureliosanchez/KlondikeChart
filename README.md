@@ -1,6 +1,8 @@
 # KlondikeChart
 jQuery Library for Creating HTML5 Charts
 <br>
+Current Release Version 1.5
+<br>
 Copyrigth 2016, Aurelio Sanchez Carrillo
 <br>
 Released under the GNU GENERAL PUBLIC LICENSE
