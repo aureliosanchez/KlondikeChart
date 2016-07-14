@@ -19,8 +19,9 @@ Add the jCanvas plugin to your HTML head tag (visit: http://projects.calebevans.
 Add the KlondikeChart jQuery library to your HTML head tag (download from this post located in the "Script" folder)
 <br>
 Add the KlondikeChart Main CSS file to your HTML head tag (download from this post located in the "CSS" Folder)
-<br><br><br>
-This relase features a full responsive and customizable Line Chart as well as a Donut Chart:
+<br><br>
+This relase features a full responsive and customizable Line Chart and Donut Chart:
+<img src="http://www.w3schools.com/css/trolltunga.jpg">
 
 
 
