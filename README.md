@@ -9,8 +9,8 @@ Released under the GNU GENERAL PUBLIC LICENSE
 
 This is an open source project that allows users to create data charts inmediatly using HTML5's Canvas property and the jCanvas plugin (see GitHub project: https://github.com/caleb531/jcanvas)
 
-#Features
-This relase features a full responsive and customizable Line Chart and Donut Chart:
+#Release Features
+<h4>Full Responsive Line Chart</h4>:
 <img src="https://raw.githubusercontent.com/aureliosanchez/KlondikeChart/master/SampleImages/KlonidkeChartProjectImage1.png">
 
 # SetUp
