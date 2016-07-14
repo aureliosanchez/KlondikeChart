@@ -14,8 +14,8 @@ Add the jQuery library to your HTML head tag (visit: http://jquery.com/download/
 <br>
 Add the jCanvas plugin to your HTML head tag document (visit: http://projects.calebevans.me/jcanvas/)
 <br>
-Add the KlondikeChart library to your HTML head tag document (download from this post located in the "Script" folder)
+Add the KlondikeChart jQuery library to your HTML head tag document (download from this post located in the "Script" folder)
 <br>
-Add the KlondikeChart main CSS file to your HTML head tag document (download from this post located in the "CSS" Folder)
+Add the KlondikeChart Main CSS file to your HTML head tag document (download from this post located in the "CSS" Folder)
 
 
