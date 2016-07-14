@@ -7,17 +7,10 @@
 
 DonutChart = function(){ 
 	/*Store the canvas object into a variable and declares all of its properties:*/
-	//var myDonutCanvas = defined by user in html document;
-	//var DonutRadius = defined by user in html document;
-	//var DonutStroke = defined by user in html document;
-	//var DonutXPosition = defined by user in html document;
-	//var DonutYPosition = defined by user in html document;
 	var decColor = 10347033;
 	var hexColor = 0;
 
 	/*Store the values and all its variants to be displayed:*/
-	//var statsNames = defined by user in html document;
-	//var stats = defined by user in html document;
 	var percentages = [];
 	var degrees = [];
 	var StartPoints = [];
@@ -96,19 +89,11 @@ DonutChart = function(){
 
 LineChart = function(){
 	/*Store the canvas object into a variable and declares all of its properties:*/
-	//var myLineCanvas = defined by user in html document
-	//var lineColor = defined by user in html document
-	//var lineStroke = defined by user in html document
-	//var CanvasBackground = defined by user in html document
-	//var gridLineColor = defined by user in html document
-	//var gridScale = defined by user in html document
 	var canvasHeight = myLineCanvas.attr("height") - 10;
 	var canvasWidth = myLineCanvas.attr("width") - 45;
 	myLineCanvas.css("background", CanvasBackground);
 
 	/*Stores the values later to be used in the chart*/
-	//var XValues = defined by user in html document
-	//var YValues = defined by user in html document
 	var DiferentialValues = [];
 	var YProportionalValues = [];
 	var XCoordinates = [];
@@ -116,7 +101,6 @@ LineChart = function(){
 
 	/*Determines the limit for both X and Y values to compress data in the chart*/
 	var XInterval = canvasWidth / XValues.length;
-	console.log("El intervalo de aumento en x es = " + XInterval);//delete  reference only
 	var YHighest = YValues[0];
 	var YLowest = YValues[0];
 	var HighesLowestDif = 0;
@@ -137,9 +121,6 @@ LineChart = function(){
 	}
 
 	/*Draws the grid*/
-	//var gridLineFrecuency = defined by user in html document
-	//var GridNumeralDecimals = defined by user in html document
-	//var gridNumeralColor = defined by user in html document
 	var e = 1;
 	for(i=YLowest; i<=YHighest; i += gridLineFrecuency){
 		myLineCanvas.drawLine({
@@ -163,7 +144,6 @@ LineChart = function(){
 	}
 	
 	/*Draws the Chart*/
-	//var ChartAvarage = defined by user in html document
 	var XStart = 0;
 	var obj = {
 	  layer: true,
@@ -188,7 +168,6 @@ LineChart = function(){
 			x1: 0, y1: canvasHeight - (((YValuesAvg - YLowest) * canvasHeight) / HighesLowestDif),
 			x2: canvasWidth, y2: canvasHeight - (((YValuesAvg - YLowest) * canvasHeight) / HighesLowestDif)
 		});
-		console.log("El promedio es = " + YValuesAvg);//delete  reference only
 		for (i = 0; i < XValues.length; i++) {
 		  obj['x'+(i+1)] = XStart;
 		  obj['y'+(i+1)] = canvasHeight - YProportionalValues[i];
