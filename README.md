@@ -73,7 +73,7 @@ Open a `<script>` tag in your html document where you call the `DonutChart()` fu
 </script>
 ```
 #Demo
-See a full working demo in the link bellow:
+See a full working demo in the link below:
 <br>
 URL - http://177.227.69.102/KlondikeChartDemo/demo.html
 #Contribute
