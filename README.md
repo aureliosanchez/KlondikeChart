@@ -25,7 +25,7 @@ Add the jCanvas plugin to your HTML head tag (visit: http://projects.calebevans.
 Add the KlondikeChart jQuery library to your HTML head tag (download from this post located in the "Script" folder)
 <br>
 Add the KlondikeChart Main CSS file to your HTML head tag (download from this post located in the "CSS" folder)
-<br><br>
+<br>
 <h3>Line Chart SetUp:</h3>
 Open a `<script>` tag in your html document where you call the `LineChart()` function and declare all of its configuration variables:
 ```
