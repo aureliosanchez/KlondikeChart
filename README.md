@@ -72,3 +72,7 @@ Open a `<script>` tag in your html document where you call the `DonutChart()` fu
 	DonutChart(); //Calls the DonutChart function to draw the chart usign the above properties
 </script>
 ```
+#Demo
+See a full working demo in the link bellow:
+<br>
+URL - 
