@@ -39,7 +39,7 @@ Your `<head>` tag should look something like this:
 ```
 <canvas id="MyCanvas" width="640" height="250"></canvas>
 ```
-<br>
+6.- SetUp the desired chart accoridn to the following instructions:
 <h3>Line Chart SetUp:</h3>
 Open a `<script>` tag in your html document where you call the `LineChart()` function and declare all of its configuration variables:
 ```
