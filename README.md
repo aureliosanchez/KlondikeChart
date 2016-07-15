@@ -75,4 +75,4 @@ Open a `<script>` tag in your html document where you call the `DonutChart()` fu
 #Demo
 See a full working demo in the link bellow:
 <br>
-URL - http://177.227.69.102/KlondikeChartDemo/demo.html
+URL - 
