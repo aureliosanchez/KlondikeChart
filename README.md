@@ -18,13 +18,13 @@ This is an open source project that allows users to create data charts inmediatl
 # SetUp
 This project requires jQuery 2.1 or later 
 <br>
-Add the jQuery library to your HTML head tag (visit: http://jquery.com/download/)
+1.- Add the jQuery library to your HTML head tag (visit: http://jquery.com/download/)
 <br>
-Add the jCanvas plugin to your HTML head tag (visit: http://projects.calebevans.me/jcanvas/)
+2.- Add the jCanvas plugin to your HTML head tag (visit: http://projects.calebevans.me/jcanvas/)
 <br>
-Add the KlondikeChart jQuery library to your HTML head tag (download from this post located in the "Script" folder)
+3.- Add the KlondikeChart jQuery library to your HTML head tag (download from this post located in the "Script" folder)
 <br>
-Add the KlondikeChart Main CSS file to your HTML head tag (download from this post located in the "CSS" folder)
+4.- Add the KlondikeChart Main CSS file to your HTML head tag (download from this post located in the "CSS" folder)
 <br>
 Your `<head>` tag should look something like this:
 ```
@@ -35,8 +35,7 @@ Your `<head>` tag should look something like this:
 	<link rel="stylesheet" type="text/css" href="css/KlondikeChart-MainCss.css">
 </head>
 ```
-<br>
-Open a `<canvas>` tag inside your html's body:
+5.- Open a `<canvas>` tag inside your html's body:
 ```
 <canvas id="MyCanvas" width="640" height="250"></canvas>
 ```
