@@ -28,7 +28,6 @@ Add the KlondikeChart Main CSS file to your HTML head tag (download from this po
 <br><br>
 <h3>Line Chart SetUp:</h3>
 Open a `<script>` tag in your html document where you call the `LineChart()` function and declare all of its configuration variables:
-<br>
 ```
 <script type="text/javascript">
 	var myLineCanvas = $("#LineChart"); //Stores the Canvas ID
@@ -37,12 +36,12 @@ Open a `<script>` tag in your html document where you call the `LineChart()` fun
 	var CanvasBackground = "#2a343f"; //Sets the color of the Canvas Background
 	var gridLineColor = "#767676"; //Sets the chart's grid lining color 
 	var gridNumeralColor = "#fff"; //Sets the grid number color
-	var gridLineFrecuency = .005; //Sets the interval of the chart graduation grid
-	var GridNumeralDecimals = 4; //Delcares how much decimals you want displayed in the graduation grid
+	var gridLineFrecuency = 20; //Sets the interval of the chart graduation grid
+	var GridNumeralDecimals = 0; //Delcares how much decimals you want displayed in the graduation grid
 	var ChartAvarage = true; //true or false; Drwas the avarage line in the chart 
-	var XValues = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"]; //String array for the X values
-	var YValues = [150, 360, 200, 225, 560, 450, 220, 550, 630, 100, 280, 480]; //Numeric array for Y values
-	LineChart();
+	var XValues = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"]; //String array for X values to be displayed in the chart
+	var YValues = [150, 360, 200, 225, 560, 450, 220, 550, 630, 100, 280, 480]; //Numeric array for Y values to be displayed in the chart
+	LineChart(); //Calls the LineChart function to draw the chart using the above properties
 </script>
 ```
 
