@@ -44,6 +44,18 @@ Open a `<script>` tag in your html document where you call the `LineChart()` fun
 	LineChart(); //Calls the LineChart function to draw the chart using the above properties
 </script>
 ```
-
-
-
+<br>
+<h3>Donut Chart SetUp:</h3>
+Open a `<script>` tag in your html document where you call the `DonutChart()` function and declare all of its configuration variables:
+```
+<script type="text/javascript">
+	var myDonutCanvas = $("#DonutChart") //Stores the Canvas ID in a variable
+	var DonutRadius = 80; //Determines the chart radius 
+	var DonutStroke = 60; //Sets the donut width
+	var DonutXPosition = 320; //Important to be set in the middle of the canvas width
+	var DonutYPosition = 125; //Important to be set in the middle of the canvas height
+	var statsNames = ["Asia", "Europe",  "America"]; //String array for the stats names to be displayed in the chart
+	var stats = [1256.54, 2460.20, 956.89]; //Numeric array for the correspondant data to be displayed in the chart
+	DonutChart(); //Calls the DonutChart function to draw the chart usign the above properties
+</script>
+```
