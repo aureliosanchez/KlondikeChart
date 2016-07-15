@@ -77,6 +77,6 @@ See a full working demo in the link bellow:
 <br>
 URL - http://177.227.69.102/KlondikeChartDemo/demo.html
 #Contribute
-Fill free to donate for more updates on this library or other KlondikeDev projects:
+Feel free to donate for more updates on this library or other KlondikeDev projects:
 [Donate using PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8T4JX32W7A5J8)
 
