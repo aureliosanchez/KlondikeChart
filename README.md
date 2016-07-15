@@ -77,9 +77,5 @@ See a full working demo in the link bellow:
 <br>
 URL - http://177.227.69.102/KlondikeChartDemo/demo.html
 #Contribute
-
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="8T4JX32W7A5J8">
-<a src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif">Donate</a>
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+[Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)
 
