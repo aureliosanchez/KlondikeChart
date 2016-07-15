@@ -77,7 +77,7 @@ See a full working demo in the link bellow:
 <br>
 URL - http://177.227.69.102/KlondikeChartDemo/demo.html
 #Contribute
-[Donate](https://www.paypal.com/cgi-bin/webscr)
+[Donate](https://www.paypal.com/mx/cgi-bin/webscr?cmd=_flow&SESSION=gCKQwz8OWSMlcLsoblB1VRIvp7qWfaACAnzCCPhz-mO05wP-LlZxnOHuvBW&dispatch=5885d80a13c0db1f8e263663d3faee8d64813b57e559a2578463e58274899069)
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
