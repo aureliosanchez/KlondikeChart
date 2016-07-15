@@ -36,12 +36,12 @@ Open a `<script>` tag in your html document where you call the `LineChart()` fun
 	var lineStroke = 3; //Determines the line stroke width
 	var CanvasBackground = "#2a343f"; //Sets the color of the Canvas Background
 	var gridLineColor = "#767676"; //Sets the chart's grid lining color 
-	var gridNumeralColor = "#fff"; //
-	var gridLineFrecuency = .005;
-	var GridNumeralDecimals = 4;
-	var ChartAvarage = true;
-	var XValues = ["Jan", "Feb", ""];
-	var YValues = [1.1292, 1.1207,  1.1260, 1.1225, 1.1277, 1.1314, 1.1242, 1.1296, 1.1385, 1.1117, 1.1025, 1.1065, 1.1125, 1.1106, 1.1136, 1.1154, 1.1076, 1.1100, 1.1063, 1.1051, 1.1058, 1.1062];
+	var gridNumeralColor = "#fff"; //Sets the grid number color
+	var gridLineFrecuency = .005; //Sets the interval of the chart graduation grid
+	var GridNumeralDecimals = 4; //Delcares how much decimals you want displayed in the graduation grid
+	var ChartAvarage = true; //true or false; Drwas the avarage line in the chart 
+	var XValues = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"]; //String array for the X values
+	var YValues = [150, 360, 200, 225, 560, 450, 220, 550, 630, 100, 280, 480]; //Numeric array for Y values
 	LineChart();
 </script>
 ```
