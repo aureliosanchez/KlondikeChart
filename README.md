@@ -31,19 +31,19 @@ Open a `<script>` tag in your html document where you call the `LineChart()` fun
 <br>
 ```
 <script type="text/javascript">
-		var myLineCanvas = $("#LineChart");
-		var lineColor = "#e88320";
-		var lineStroke = 3;
-		var CanvasBackground = "#2a343f";
-		var gridLineColor = "#767676";
-		var gridNumeralColor = "#fff";
-		var gridLineFrecuency = .005;
-		var GridNumeralDecimals = 4;
-		var ChartAvarage = true;
-		var XValues = ["06/13", "06/14", "06/15", "06/16", "06/17", "06/20", "06/21", "06/22", "06/23", "06/24", "06/27", "06/28", "06/29", "06/30", "07/01", "07/04", "07/05", "07/06", "07/07", "07/08", "07/11", "07/12"];
-		var YValues = [1.1292, 1.1207,  1.1260, 1.1225, 1.1277, 1.1314, 1.1242, 1.1296, 1.1385, 1.1117, 1.1025, 1.1065, 1.1125, 1.1106, 1.1136, 1.1154, 1.1076, 1.1100, 1.1063, 1.1051, 1.1058, 1.1062];
-		LineChart();
-	</script>
+	var myLineCanvas = $("#LineChart"); //Stores the Canvas ID
+	var lineColor = "#e88320"; //Sets the color of the line in the chart 
+	var lineStroke = 3; //Determines the line stroke width
+	var CanvasBackground = "#2a343f"; //Sets the color of the Canvas Background
+	var gridLineColor = "#767676"; //Sets the chart's grid lining color 
+	var gridNumeralColor = "#fff"; //
+	var gridLineFrecuency = .005;
+	var GridNumeralDecimals = 4;
+	var ChartAvarage = true;
+	var XValues = ["Jan", "Feb", ""];
+	var YValues = [1.1292, 1.1207,  1.1260, 1.1225, 1.1277, 1.1314, 1.1242, 1.1296, 1.1385, 1.1117, 1.1025, 1.1065, 1.1125, 1.1106, 1.1136, 1.1154, 1.1076, 1.1100, 1.1063, 1.1051, 1.1058, 1.1062];
+	LineChart();
+</script>
 ```
 
 
