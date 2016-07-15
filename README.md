@@ -26,6 +26,16 @@ Add the KlondikeChart jQuery library to your HTML head tag (download from this p
 <br>
 Add the KlondikeChart Main CSS file to your HTML head tag (download from this post located in the "CSS" folder)
 <br>
+Your `<head>` tag should look something like this:
+```
+<head>
+	<script type="text/javascript" src="scripts/jquery-2.1.4.js"></script>
+	<script type="text/javascript" src="scripts/jcanvas.js"></script>
+	<script type="text/javascript" src="scripts/KlondikeChart-v1.5.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/KlondikeChart-MainCss.css">
+</head>
+```
+<br>
 Open a `<canvas>` tag inside your html's body:
 ```
 <canvas id="MyCanvas" width="640" height="250"></canvas>
