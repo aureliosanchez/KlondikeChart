@@ -26,6 +26,11 @@ Add the KlondikeChart jQuery library to your HTML head tag (download from this p
 <br>
 Add the KlondikeChart Main CSS file to your HTML head tag (download from this post located in the "CSS" folder)
 <br>
+Open a `<canvas>` tag inside your html's body:
+```
+<canvas id="MyCanvas" width="640" height="250"></canvas>
+```
+<br>
 <h3>Line Chart SetUp:</h3>
 Open a `<script>` tag in your html document where you call the `LineChart()` function and declare all of its configuration variables:
 ```
@@ -44,7 +49,6 @@ Open a `<script>` tag in your html document where you call the `LineChart()` fun
 	LineChart(); //Calls the LineChart function to draw the chart using the above properties
 </script>
 ```
-<br>
 <h3>Donut Chart SetUp:</h3>
 Open a `<script>` tag in your html document where you call the `DonutChart()` function and declare all of its configuration variables:
 ```
